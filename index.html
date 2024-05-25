@@ -8,21 +8,45 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1 class="text-center mt-4 mb-4 text-5xl font-extrabold">Mi Página Web</h1>
-    <div class="m-4 flex items-center justify-center">
-      <button class="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Download"> <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f1f1f1" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" id="Vector"></path> </g> </g></svg>
-        Download
-        <div class="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
-          Download
-        </div>
-      </button>
-    </div>
 
-    <div class="m-4 flex items-center justify-center">
-      <button class="btn-donate">
-        Donate now
-    </button>
+    <nav>
+      <ul class="flex gap-3 m-4 p-4 cursor-pointer text-red-400">
+        <li><a href="">Home</a></li>
+        <li><a href="">Quienes Somos</a></li>
+        <li><a href=""></a>Donde Estamos</li>
+        <li><a href=""></a>Acerca de nosotros</li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="text-center mt-4 mb-4 text-5xl font-extrabold">Mi Página Web</h1>
+    <div class="flex flex-col">
+      <div class="m-4 flex items-center justify-center">
+        <button class="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Download"> <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f1f1f1" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" id="Vector"></path> </g> </g></svg>
+          Download
+          <div class="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
+            Download
+          </div>
+        </button>
+      </div>
+  
+      <div class="m-4 flex items-center justify-center">
+        <button class="btn-donate">
+          Donate now
+        </button>
+      </div>
+
+  
+      <div class="flex items-center justify-center">
+        <ul class="text-center">
+          <li><a href="https://google.com" target="_blank" class="underline text-blue-400 font-bold text-2xl">Google</a></li>
+          <li><a href="https://www.youtube.com/watch?v=OG6YGMF0UPM" target="_blank" class="underline text-blue-400 font-bold text-2xl">Video React 19</a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
