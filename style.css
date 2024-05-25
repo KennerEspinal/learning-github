@@ -1,9 +1,9 @@
-h1 {
-    color: red;
-    font-size: 40px;
+/* h1 {
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     text-align: center;
-    padding-top: 4px;
-}
+} */
 
 .btn-donate {
     --clr-font-main: hsla(0 0% 20% / 100);
